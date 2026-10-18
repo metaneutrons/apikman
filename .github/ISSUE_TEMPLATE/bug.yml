@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a defect using synthetic data only.
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+      description: Do not include secrets, recovery material or private vault data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and platform
+      description: Include version or commit, OS and minimal synthetic reproduction.
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+name: Feature request
+description: Describe a concrete use case and its security boundaries.
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case and proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security, compatibility and acceptance
+      description: Link the existing plan or explain affected trust boundaries.
